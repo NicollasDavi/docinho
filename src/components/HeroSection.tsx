@@ -1,5 +1,4 @@
-import { Heart, Sparkles } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Heart } from "lucide-react";
 import romanticBg from "@/assets/romantic-bg.jpg";
 
 const HeroSection = () => {
@@ -31,19 +30,7 @@ const HeroSection = () => {
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
             Fiz esse site só pra você saber o quanto você é importante pra mim
           </p>
-          
-          <Button 
-            size="lg" 
-            className="bg-rose-medium hover:bg-rose-deep text-white shadow-romantic transition-bounce text-lg px-8 py-4 rounded-full"
-          >
-            <Sparkles className="mr-2" size={20} />
-            Continue Lendo
-          </Button>
         </div>
-      </div>
-      
-      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-float">
-        <Heart className="text-rose-medium opacity-50" size={24} fill="currentColor" />
       </div>
     </section>
   );
