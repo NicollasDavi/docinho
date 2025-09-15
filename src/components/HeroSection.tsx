@@ -22,15 +22,14 @@ const HeroSection = () => {
           </div>
           
           <h1 className="text-4xl md:text-6xl font-bold mb-6 text-foreground leading-tight">
-            Para Você,{" "}
+            Oi,{" "}
             <span className="bg-gradient-sunset bg-clip-text text-transparent">
-              Meu Docinho
+              meu docinho
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-            Cada momento ao seu lado é um presente. Você ilumina meus dias
-            e torna tudo mais bonito com seu sorriso.
+            Fiz esse site só pra você saber o quanto você é importante pra mim
           </p>
           
           <Button 

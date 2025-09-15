@@ -5,23 +5,23 @@ const LoveSection = () => {
   const loveReasons = [
     {
       icon: <Sun className="text-gold-deep" size={32} />,
-      title: "Seu Sorriso",
-      description: "Seu sorriso é como o sol da manhã, aquece meu coração e ilumina meu dia inteiro. É impossível não sorrir quando vejo você feliz."
+      title: "Esse seu jeito",
+      description: "Você tem um jeito único de ser que me deixa completamente apaixonado. É difícil explicar, mas é você sendo você mesma."
     },
     {
       icon: <Heart className="text-rose-deep" size={32} fill="currentColor" />,
-      title: "Seu Carinho",
-      description: "Cada gesto de carinho seu é como um abraço na alma. Sua gentileza e amor me fazem ser uma pessoa melhor a cada dia."
+      title: "Como você me trata",
+      description: "Você sempre sabe o que dizer e como me fazer sentir especial. Obrigado por ser tão carinhosa comigo."
     },
     {
       icon: <Star className="text-gold-medium" size={32} fill="currentColor" />,
-      title: "Seus Sonhos",
-      description: "Admiro sua determinação e a forma como você sonha. Quero estar ao seu lado realizando cada um dos nossos sonhos juntos."
+      title: "Seus planos malucos",
+      description: "Adoro quando você aparece com ideias aleatórias e a gente sai fazendo as coisas mais bobas juntos."
     },
     {
       icon: <Moon className="text-rose-medium" size={32} fill="currentColor" />,
-      title: "Suas Risadas",
-      description: "Sua risada é contagiante e me faz rir até das coisas mais bobas. Com você, até os momentos mais simples se tornam especiais e divertidos."
+      title: "Suas risadas",
+      description: "Sua risada é a melhor coisa do mundo. Fico feliz só de lembrar dos momentos que você não consegue parar de rir."
     }
   ];
 
@@ -30,10 +30,10 @@ const LoveSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-6 text-foreground">
-            Por Que Te Amo
+            Algumas coisas que amo em você
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            São infinitos os motivos, mas aqui estão alguns que fazem meu coração disparar
+            (são muitas, mas escolhi essas)
           </p>
         </div>
         
