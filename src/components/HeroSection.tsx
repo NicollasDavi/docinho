@@ -21,7 +21,7 @@ const HeroSection = () => {
           </div>
           
           <h1 className="text-4xl md:text-6xl font-bold mb-6 text-foreground leading-tight">
-            Oi,{" "}
+            Oii {" "}
             <span className="bg-gradient-sunset bg-clip-text text-transparent">
               meu docinho
             </span>

@@ -3,27 +3,28 @@ import { Heart, Star, Sun, Moon } from "lucide-react";
 
 const LoveSection = () => {
   const loveReasons = [
-    {
-      icon: <Sun className="text-gold-deep" size={32} />,
-      title: "Esse seu jeito",
-      description: "Você tem um jeito único de ser que me deixa completamente apaixonado. É difícil explicar, mas é você sendo você mesma."
-    },
-    {
-      icon: <Heart className="text-rose-deep" size={32} fill="currentColor" />,
-      title: "Como você me trata",
-      description: "Você sempre sabe o que dizer e como me fazer sentir especial. Obrigado por ser tão carinhosa comigo."
-    },
-    {
-      icon: <Star className="text-gold-medium" size={32} fill="currentColor" />,
-      title: "Seus planos malucos",
-      description: "Adoro quando você aparece com ideias aleatórias e a gente sai fazendo as coisas mais bobas juntos."
-    },
-    {
-      icon: <Moon className="text-rose-medium" size={32} fill="currentColor" />,
-      title: "Suas risadas",
-      description: "Sua risada é a melhor coisa do mundo. Fico feliz só de lembrar dos momentos que você não consegue parar de rir."
-    }
-  ];
+  {
+    icon: <Sun className="text-gold-deep" size={32} />,
+    title: "Esse seu jeito",
+    description: "Adoro cada detalhe de quem você é. Seu jeito único me deixa completamente encantado."
+  },
+  {
+    icon: <Heart className="text-rose-deep" size={32} fill="currentColor" />,
+    title: "Como você me trata",
+    description: "Você me faz sentir tão especial de um jeito que ninguém mais consegue. Estar com você é incrível."
+  },
+  {
+    icon: <Star className="text-pink-500" size={32} fill="currentColor" />,
+    title: "Nossos momentos juntos",
+    description: "Cada instante ao seu lado se torna inesquecível. Eu amo estar com você e compartilhar tudo."
+  },
+  {
+    icon: <Moon className="text-rose-medium" size={32} fill="currentColor" />,
+    title: "Suas risadas",
+    description: "Sua risada é contagiante e ilumina meu dia. É impossível não sorrir junto com você."
+  }
+];
+
 
   return (
     <section className="py-20 bg-gradient-romantic">
