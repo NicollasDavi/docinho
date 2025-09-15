@@ -1,6 +1,5 @@
 import HeroSection from "@/components/HeroSection";
 import LoveSection from "@/components/LoveSection";
-import PromiseSection from "@/components/PromiseSection";
 import FloatingHearts from "@/components/FloatingHearts";
 
 const Index = () => {
@@ -9,7 +8,6 @@ const Index = () => {
       <FloatingHearts />
       <HeroSection />
       <LoveSection />
-      <PromiseSection />
     </main>
   );
 };

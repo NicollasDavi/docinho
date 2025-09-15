@@ -20,8 +20,8 @@ const LoveSection = () => {
     },
     {
       icon: <Moon className="text-rose-medium" size={32} fill="currentColor" />,
-      title: "Nossa Paz",
-      description: "Nos seus braços encontro a paz que procurava. Você é meu porto seguro, meu lugar de descanso em meio ao mundo."
+      title: "Suas Risadas",
+      description: "Sua risada é contagiante e me faz rir até das coisas mais bobas. Com você, até os momentos mais simples se tornam especiais e divertidos."
     }
   ];
 
