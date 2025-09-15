@@ -6,7 +6,7 @@ const LoveSection = () => {
   {
     icon: <Sun className="text-gold-deep" size={32} />,
     title: "Esse seu jeito",
-    description: "Adoro cada detalhe de quem você é. Seu jeito único me deixa completamente encantado."
+    description: "Adoro cada detalhe de quem você é. Seu jeito único me deixa completamente apaixonado."
   },
   {
     icon: <Heart className="text-rose-deep" size={32} fill="currentColor" />,
