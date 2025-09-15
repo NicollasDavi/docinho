@@ -28,7 +28,7 @@ const HeroSection = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-            Fiz esse site só pra você saber o quanto você é importante pra mim
+            Fiz isso só pra você saber o quanto você é importante pra mim
           </p>
         </div>
       </div>
